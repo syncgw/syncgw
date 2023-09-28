@@ -1,0 +1,73 @@
+{
+	"name" : "syncgw/syncgw",
+	"description" : "sync•gw server providing synchronization service.",
+	"license" : "LGPL-3.0-or-later",
+	"type" : "symfony-bundle",
+	"authors" : [{
+			"name" : "Florian Daeumling",
+			"homepage" : "https://github.com/toteph42"
+		}
+	],
+	"homepage": "https://github.com/syncgw/syncgw",
+	"support" : {
+		"issues" : "https://github.com/syncgw/syncgw/issues",
+		"source" : "https://github.com/syncgw/syncgw",
+		"docs" : "https://github.com/syncgw/doc-bundle"
+	},
+	"funding" : [{
+			"type" : "other",
+			"url" : "https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ"
+		}
+	],
+	"keywords" : [
+		"syncgw",
+		"sync*gw",
+		"core",
+		"sync",
+		"mobile",
+		"synchronization",
+		"xml",
+		"eas",
+		"activesync",
+		"exchange-activesync",
+		"caldav",
+		"carddav",
+		"webdav",
+		"mapi-http",
+		"rops",
+		"rpc",
+		"ics"
+	],
+	"require" : {
+		"php" : ">=8.1",
+		"syncgw/core-bundle" : ">=9.19.78",
+		"syncgw/gui-bundle" : ">=9.19.78",
+		"syncgw/file-bundle" : "*",
+		"syncgw/mysql-bundle" : "*",
+		"syncgw/roundcube-bundle" : "*",
+		"syncgw/activesync-bundle" : "*",
+		"syncgw/webdav-bundle" : "*"
+	},
+ 	"autoload" : {
+		"psr-4" : {
+			"syncgw\\" : "core-bundle/src/",
+			"syncgw\\gui\\" : "gui-bundle/src/",
+			"syncgw\\interface\\file\\" : "file-bundle/src/",
+			"syncgw\\interface\\mysql\\" : "mysql-bundle/src/",
+			"syncgw\\interface\\roundcube\\" : "roundcube-bundle/src/",
+			"syncgw\\activesync\\" : "activesync-bundle/src/",
+			"syncgw\\webdav\\" : "webdav-bundle/src/"
+		}
+	},
+	"scripts": {
+        "post-install-cmd" : [
+            "syncgw\\lib\\Setup::postInstall"
+        ],
+        "post-update-cmd" : [
+            "syncgw\\lib\\Setup::postInstall"
+        ],
+		"post-package-uninstall" : [
+            "syncgw\\lib\\Setup::postUninstall"
+		]
+    }
+}
