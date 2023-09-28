@@ -44,8 +44,7 @@
 		"syncgw/file-bundle" : ">=9.19.78",
 		"syncgw/mysql-bundle" : ">=9.19.78",
 		"syncgw/roundcube-bundle" : ">=9.19.78",
-		"syncgw/activesync-bundle" : ">=9.19.78",
-		"syncgw/webdav-bundle" : ">=9.19.78"
+		"syncgw/activesync-bundle" : ">=9.19.78"
 	},
  	"autoload" : {
 		"psr-4" : {
@@ -54,8 +53,7 @@
 			"syncgw\\interface\\file\\" : "file-bundle/src/",
 			"syncgw\\interface\\mysql\\" : "mysql-bundle/src/",
 			"syncgw\\interface\\roundcube\\" : "roundcube-bundle/src/",
-			"syncgw\\activesync\\" : "activesync-bundle/src/",
-			"syncgw\\webdav\\" : "webdav-bundle/src/"
+			"syncgw\\activesync\\" : "activesync-bundle/src/"
 		}
 	},
 	"scripts": {
