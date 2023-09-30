@@ -34,8 +34,9 @@ A detailed description of available configuration option is available in our bro
 If you want to use **sync•gw** go to your base directory on your web server and enter
 
 ```bash
-composer create-project syncgw/syncgw 
+composer create-project syncgw/syncgw .
 ```
+(Don't forget the "." at the end of the command line).
 
 Then start **sync•gw** by typing into your browser's URL bar `http://[your-domain.tld]/[path to application directory]/sync.php`.
 
@@ -44,12 +45,8 @@ At least select "Configure **sync•gw**" and check your settings and click on "
 ## License ##
 This plugin is released under the [GNU General Public License v3.0](https://github.com/toteph42/syncgw/blob/master/syncgw/LICENSE).
 
-If you enjoy my software, I would be happy to receive a donation.
-
-<a href="https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ" target="_blank" rel="noopener">
-  <img src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal"/>
-</a>
-
+|  <a href="https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ" target="_blank" rel="noopener">   <img src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal"/> </a> | 
+| --- | 
 
 [[Documentation](https://github.com/syncgw/doc-bundle/blob/master/README.md)]
 [[System requirements](https://github.com/syncgw/doc-bundle/blob/master/PreReqs.md)] 
