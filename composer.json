@@ -40,11 +40,11 @@
 	"require" : {
 		"php" : ">=8.1",
 		"syncgw/core-bundle" : ">=9.19.78",
-		"syncgw/gui-bundle" : ">=9.19.78",
-		"syncgw/file-bundle" : ">=9.19.78",
-		"syncgw/mysql-bundle" : ">=9.19.78",
+		"syncgw/gui-bundle" : ">=9.19.80",
+		"syncgw/file-bundle" : ">=9.19.79",
+		"syncgw/mysql-bundle" : ">=9.19.79",
 		"syncgw/roundcube-bundle" : ">=9.19.78",
-		"syncgw/activesync-bundle" : ">=9.19.78"
+		"syncgw/activesync-bundle" : ">=9.19.79"
 	},
  	"autoload" : {
 		"psr-4" : {
