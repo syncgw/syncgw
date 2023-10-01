@@ -1,18 +1,18 @@
 {
 	"name" : "syncgw/syncgw",
 	"description" : "sync•gw server providing synchronization service.",
-	"license" : "LGPL-3.0-or-later",
 	"type" : "symfony-bundle",
-	"authors" : [{
+ 	"license" : "LGPL-3.0-or-later",
+ 	"authors" : [{
 			"name" : "Florian Daeumling",
 			"homepage" : "https://github.com/toteph42"
 		}
 	],
-	"homepage": "https://github.com/syncgw/syncgw",
+	"homepage" : "https://github.com/syncgw/syncgw",
 	"support" : {
 		"issues" : "https://github.com/syncgw/syncgw/issues",
 		"source" : "https://github.com/syncgw/syncgw",
-		"docs" : "https://github.com/syncgw/doc-bundle"
+		"docs" : "https://github.com/syncgw/syncgw"
 	},
 	"funding" : [{
 			"type" : "other",
@@ -20,7 +20,7 @@
 		}
 	],
 	"keywords" : [
-		"syncgw",
+		"syncgw", 
 		"core",
 		"sync",
 		"mobile",
