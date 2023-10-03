@@ -1,6 +1,11 @@
 {
 	"name" : "syncgw/syncgw",
 	"description" : "sync•gw server providing synchronization service.",
+    "repositories" : [{
+            "type" : "composer",
+            "url" : "https://repo.packagist.org"
+    	}
+    ],
 	"type" : "symfony-bundle",
  	"license" : "LGPL-3.0-or-later",
  	"authors" : [{
@@ -44,7 +49,8 @@
 		"syncgw/file-bundle" : ">=9.19.80",
 		"syncgw/mysql-bundle" : ">=9.19.80",
 		"syncgw/roundcube-bundle" : ">=9.19.80",
-		"syncgw/activesync-bundle" : ">=9.19.80"
+		"syncgw/activesync-bundle" : ">=9.19.80",
+		"syncgw/webdav-bundle" : ">=9.19.80"
 	},
  	"autoload" : {
 		"psr-4" : {
@@ -53,7 +59,8 @@
 			"syncgw\\interface\\file\\" : "file-bundle/src/",
 			"syncgw\\interface\\mysql\\" : "mysql-bundle/src/",
 			"syncgw\\interface\\roundcube\\" : "roundcube-bundle/src/",
-			"syncgw\\activesync\\" : "activesync-bundle/src/"
+			"syncgw\\activesync\\" : "activesync-bundle/src/",
+			"syncgw\\webdav\\" : "webdav-bundle/src/"
 		}
 	},
 	"scripts": {
