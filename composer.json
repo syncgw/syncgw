@@ -9,8 +9,9 @@
 	"type" : "symfony-bundle",
  	"license" : "LGPL-3.0-or-later",
  	"authors" : [{
-			"name" : "Florian Daeumling",
-			"homepage" : "https://github.com/toteph42"
+			"name" : "Florian Däumling",
+			"homepage" : "https://github.com/toteph42",
+            "role" : "Developer"
 		}
 	],
 	"homepage" : "https://github.com/syncgw/syncgw",
@@ -44,13 +45,13 @@
 	],
 	"require" : {
 		"php" : ">=8.1",
-		"syncgw/core-bundle" : ">=9.19.80",
-		"syncgw/gui-bundle" : ">=9.19.80",
-		"syncgw/file-bundle" : ">=9.19.80",
-		"syncgw/mysql-bundle" : ">=9.19.80",
-		"syncgw/roundcube-bundle" : ">=9.19.80",
-		"syncgw/activesync-bundle" : ">=9.19.80",
-		"syncgw/webdav-bundle" : ">=9.19.80"
+		"syncgw/core-bundle" : "^9.19",
+		"syncgw/gui-bundle" : "^9.19",
+		"syncgw/file-bundle" : "^9.19",
+		"syncgw/mysql-bundle" : "^9.19",
+		"syncgw/roundcube-bundle" : "^9.19",
+		"syncgw/activesync-bundle" : "^9.19",
+		"syncgw/webdav-bundle" : "^9.19"
 	},
  	"autoload" : {
 		"psr-4" : {
@@ -64,10 +65,10 @@
 		}
 	},
 	"scripts": {
-        "post-install-cmd" : [
+        "post-package-install" : [
             "syncgw\\lib\\Setup::postInstall"
         ],
-        "post-update-cmd" : [
+        "post-package-update" : [
             "syncgw\\lib\\Setup::postInstall"
         ],
 		"post-package-uninstall" : [
