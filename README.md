@@ -45,8 +45,11 @@ At least select "Configure **sync•gw**" and check your settings and click on "
 ## License ##
 This plugin is released under the [GNU General Public License v3.0](https://github.com/toteph42/syncgw/blob/master/syncgw/LICENSE).
 
-|  <a href="https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ" target="_blank" rel="noopener">   <img src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal"/> </a> | 
-| --- | 
+## Donation ##
+
+If you like this software and you want support my work, feel free to send me a donation:
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ" target="_blank" rel="noopener">   <img src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal"/> </a>
 
 [[Documentation](https://github.com/syncgw/doc-bundle/blob/master/README.md)]
 [[System requirements](https://github.com/syncgw/doc-bundle/blob/master/PreReqs.md)] 
