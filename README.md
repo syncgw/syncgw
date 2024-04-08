@@ -53,7 +53,7 @@ If you like this software and you want support my work, feel free to send me a d
 
 [[Documentation](https://github.com/syncgw/doc-bundle/blob/master/README.md)]
 [[System requirements](https://github.com/syncgw/doc-bundle/blob/master/PreReqs.md)] 
-[[Available bundles](https://github.com/syncgw/doc-bundle/blob/master/Packages.md)] 
+[[Available bundles](https://github.com/syncgw/doc-bundle/blob/master/Bundles.md)] 
 [[List of all changes](https://github.com/syncgw/doc-bundle/blob/master/Changes.md)] 
 [[Additional Downloads](https://github.com/syncgw/doc-bundle/blob/master/Downloads.md)] 
 [[Frequently asked questions](https://github.com/syncgw/doc-bundle/blob/master/FAQ.md)] 
