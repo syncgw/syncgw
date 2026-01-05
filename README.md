@@ -14,10 +14,10 @@
 * Only a web server with PHP is required to run **sync•gw** (no additional software or tools required).
 * Full internationalization support.
 * Multi byte support (support for e.g. Japanese language).
-* Support for time zones..
+* Support for time zones.
 * Multiple level of logging supported
 * Intelligent field assignment - calculated based on mix of configuration file and probability calculation.
-* Programming documentation available (see **Developers Guide** in the [Downloads](../doc-bundle/Downloads.md).
+* Programming documentation available (see **Developers Guide** in the [Downloads](../doc-bundle/Downloads.md)).
 * Support for encrypted message exchange using SSL web server setting.
 * Administrator browser interface with password protection.
 * Contact synchronization support.

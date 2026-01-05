@@ -1,17 +1,17 @@
 {
 	"name" : "syncgw/syncgw",
-	"description" : "sync•gw server providing synchronization service.",
-    "repositories" : [{
-            "type" : "composer",
-            "url" : "https://repo.packagist.org"
-    	}
-    ],
+	"description" : "sync\u2022gw server providing synchronization service.",
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://repo.packagist.org"
+		}
+	],
 	"type" : "symfony-bundle",
- 	"license" : "LGPL-3.0-or-later",
- 	"authors" : [{
+	"license" : "LGPL-3.0-or-later",
+	"authors" : [{
 			"name" : "Florian Däumling",
 			"homepage" : "https://github.com/toteph42",
-            "role" : "Developer"
+			"role" : "Developer"
 		}
 	],
 	"homepage" : "https://github.com/syncgw/syncgw",
@@ -26,7 +26,7 @@
 		}
 	],
 	"keywords" : [
-		"syncgw", 
+		"syncgw",
 		"core",
 		"sync",
 		"mobile",
@@ -53,7 +53,7 @@
 		"syncgw/activesync-bundle" : "^9.20",
 		"syncgw/webdav-bundle" : "^9.20"
 	},
- 	"autoload" : {
+	"autoload" : {
 		"psr-4" : {
 			"syncgw\\" : "core-bundle/src/",
 			"syncgw\\gui\\" : "gui-bundle/src/",
@@ -64,15 +64,9 @@
 			"syncgw\\webdav\\" : "webdav-bundle/src/"
 		}
 	},
-	"scripts": {
-        "post-package-install" : [
-            "syncgw\\lib\\Setup::postInstall"
-        ],
-        "post-package-update" : [
-            "syncgw\\lib\\Setup::postInstall"
-        ],
-		"post-package-uninstall" : [
-            "syncgw\\lib\\Setup::postUninstall"
-		]
-    }
+	"scripts" : {
+		"post-package-install" : "identity_switch\\identity_switch_setup::postInstall",
+		"post-package-update" : "identity_switch\\identity_switch_setup::postInstall",
+		"post-package-uninstall" : "identity_switch\\identity_switch_setup::postUninstall"
+	}
 }
